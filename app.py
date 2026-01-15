@@ -1,5 +1,4 @@
-print("Hello, KassApp!")
 price = float(input("Введіть ціну товару: "))
-discount = 0.1  # 10% знижка
+discount = float(input("Введіть знижку у %: ")) / 100
 final_price = price * (1 - discount)
 print(f"Ціна зі знижкою: {final_price}")
